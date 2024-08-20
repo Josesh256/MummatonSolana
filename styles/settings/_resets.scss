@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+input[type="*"] {
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+section:not(:first-child) {
+    margin: 5rem auto;
+}
+
+section:not(.footer__wrapper):not(.header__wrapper):last-child {
+    margin: 5rem auto 0 auto;
+}

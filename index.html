@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$MUMMAT</title>
+    <link rel="stylesheet" href="./styles/app.css">
+    <script src='https://terminal.jup.ag/main-v3.js'></script>
+    <script src="https://kit.fontawesome.com/aba09469eb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./booklet-master/src/jquery.booklet.latest.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="icon" type="image/png" href="./assets/favIcon.png">
+</head>
+
+<body>
+    <nav class="header">
+        <div class="header__capa"></div>
+        <div class="header__wrapper">
+            <div class="header__content">
+                <div class="header__rrss">
+                    <a href="https://linktr.ee/mummatsol" class="header__imgh" target="_blank"> 
+                        <img src="./assets/icons8-linktree.svg" alt="">
+                      </a>
+                      <a href="https://t.me/MummatSolana" class="header__imgh" target="_blank">
+                        <img src="./assets/telegram-svgrepo-com.svg" alt="">
+                      </a>
+                      <a href="https://x.com/mummatsolana" class="header__imgh" target="_blank"> 
+                        <img src="./assets/icons8-logo-twitter.svg" alt="">
+                      </a>
+                      <a href="https://dexscreener.com/solana/6gvwska7snjdn4mqv7ydn4q7ayvnso2ax4tngjbg7cct" class="header__imgh" target="_blank"> 
+                        <img src="./assets/dex-screener-seeklogo.svg" alt="">
+                      </a>
+                      <a href="https://www.instagram.com/mummatsol/?igsh=b3hwdnQ1dmZkdG1w&utm_source=qr" class="header__imgh" target="_blank"> 
+                        <img src="./assets/instagram-1-svgrepo-com.svg" alt="">
+                      </a>
+                      <a href="https://www.tiktok.com/@mummatsol" class="header__imgh" target="_blank"> 
+                        <img src="./assets/tiktok-svgrepo-com.svg" alt="">
+                      </a>
+                      
+                </div>
+                <a href="https://jup.ag/swap/SOL-6gvWSka7SnJDn4mqV7Ydn4q7AyVNSo2aX4TNGjBg7Cct" class="btn" target="_blank">BUY $MUMMAT</a>
+            </div>
+            
+        </div>
+    </nav>
+    
+    <header class="hero">
+        <div class="hero__wrapper">
+            <img src="./assets/layout-img.jpg" alt="" class="hero__layout-img-two">
+            <img src="./assets/layout-img-3.jpg" alt="" class="hero__layout-img-one">
+            <img src="./assets/layout-img-5.jpg" alt="" class="hero__layout-img-three">
+            <img src="./assets/chartt.jpg" alt="" class="hero__layout-img-four">
+            <img src="./assets/bg-hero.jpg" alt="" class="hero__layout-img-five">
+            <img class="hero__img" src="./assets/hero_title.png" alt="Hero Image">
+        </div>
+    </header>
+    
+    
+
+    <div class="banner-information">
+        <div class="banner-information__rrss">
+            <a href="https://www.coingecko.com/en/coins/mummat" class="header__imgh"> <img src="./assets/Color.svg" alt=""></a>
+            <a href="https://www.dextools.io/app/es/solana/pair-explorer/FRsKKpxtoLjTzg45dzMvHu1EyGpU7wUvwUJDXEBxoWKk?t=1721572801368" class="header__imgh">  <img src="./assets/dextools-seeklogo.svg" width="96px" height="96px" alt=""></a>
+            <a href="" class="header__imgh">  <img src="./assets/cmc.png" width="96px" height="96px" alt=""></a>
+            <a href="https://dexscreener.com/solana/frskkpxtoljtzg45dzmvhu1eygpu7wuvwujdxebxowkk" class="header__imgh">  <img src="./assets/dex-screener-seeklogo.png" alt=""></a>
+        </div>
+        <div class="banner-information__address">
+            <p class="banner-information__address-text">CA:6gvWSka7SnJDn4mqV7Ydn4q7AyVNSo2aX4TNGjBg7Cct</p>
+            <button class="banner-information__address-button" onclick="copyAddress()">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.33325 5.33333H2.66659C1.93125 5.33333 1.33325 5.93133 1.33325 6.66667V13.3333C1.33325 14.0687 1.93125 14.6667 2.66659 14.6667H9.33325C10.0686 14.6667 10.6666 14.0687 10.6666 13.3333V6.66667C10.6666 5.93133 10.0686 5.33333 9.33325 5.33333Z" fill="white" />
+                    <path d="M13.3333 1.33333H6.66659C6.31296 1.33333 5.97383 1.47381 5.72378 1.72386C5.47373 1.97391 5.33325 2.31304 5.33325 2.66667V4H10.6666C11.0202 4 11.3593 4.14048 11.6094 4.39052C11.8594 4.64057 11.9999 4.97971 11.9999 5.33333V10.6667H13.3333C13.6869 10.6667 14.026 10.5262 14.2761 10.2761C14.5261 10.0261 14.6666 9.68696 14.6666 9.33333V2.66667C14.6666 2.31304 14.5261 1.97391 14.2761 1.72386C14.026 1.47381 13.6869 1.33333 13.3333 1.33333Z" fill="white" />
+                </svg>
+                COPY ADDRESS
+            </button>
+            <div id="copy-alert" class="copy-alert">Copied!</div>
+        </div>
+    </div>
+    
+    
+    
+
+    <main class="main-container" role="main">
+        
+        <div class="about">
+            <img src="./assets/layout-img-3.jpg" alt="" class="about__img">
+            <div class="about__content">
+                <h3 class="about__content-title">MUMMAT</h3>
+                <h3 class="about__content-text">Mummat woke up in the dim light of some unknown pyramid. As he stood up and brushed off the dust, he remembered his old life full of wild behavior, bad habits, and laziness. He decided to turn things around and live a decent life, far from chaos. After a long journey, Mummat found a planet called Solana. It was a lively and weird place, full of creatures and tech he never could have imagined. Soon enough, he met a group of buddies: Pepe, Andy, Landwolf, and Brett – the "Boys Club," who loved weed, cocaine, and crypto. Looks like destiny didn't want Mummat to settle down, HAHA.</h3>
+            </div>
+        </div>
+      
+
+      
+        
+
+        <div class="scroller" data-direction="left" data-speed="slow">
+            <div class="scroller__inner">
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+            </div>
+        </div>
+      
+        <div class="SWAP">
+           <h2 class="swap-title">Mummat SWAP</h2>
+        <div id="integrated-terminal">
+        
+
+        </div>
+            <div class="how-to-buy__wrapper">
+                <section class="steps">
+                   
+                    <div class="steps__wrapper">
+      
+                </section>
+            </div>
+        </div>
+        
+       
+        <div class="scroller" data-direction="left" data-speed="slow">
+            <div class="scroller__inner">
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+            </div>
+        </div>
+
+        <div class="tokenomics">
+            <h2 class="tokenomics-title">Tokenomics</h2>
+            <div class="tokenomics__columns">
+                <div class="tokenomics__columns-column">
+                   
+                    <h2 class="tokenomics__columns-column-title">819M</h2>
+                    <h3 class="tokenomics__columns-column-subtitle">Total Token Supply</h3>
+                </div>
+                <div class="tokenomics__columns-column">
+                  
+                    <h2 class="tokenomics__columns-column-title">0/0</h2>
+                    <h3 class="tokenomics__columns-column-subtitle">Tax</h3>
+                </div>
+                <!-- Nueva columna 1 -->
+                <div class="tokenomics__columns-column">
+                   
+                    <h2 class="tokenomics__columns-column-title">Ownership</h2>
+                    <h3 class="tokenomics__columns-column-subtitle">Renounced</h3>
+                </div>
+                <!-- Nueva columna 2 -->
+                <div class="tokenomics__columns-column">
+                    
+                    <h2 class="tokenomics__columns-column-title">100% LP</h2>
+                    <h3 class="tokenomics__columns-column-subtitle">Burned</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroller" data-direction="left" data-speed="slow">
+            <div class="scroller__inner">
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+            </div>
+        </div>
+
+        <div class="section-container">
+            <div class="comic-background">
+              <div class="comic-container">
+                <div class="comic" id="comic-pages">
+                  <div class="page" title="Page 1"><img src="./assets/comic/chapter1.jpg" alt="Página 1"></div>
+                  <div class="page" title="Page 2"><img src="./assets/comic/chapter2.jpg" alt="Página 2"></div>
+                  <div class="page" title="Page 3"><img src="./assets/comic/chapter3.jpg" alt="Página 3"></div>
+                  <div class="page" title="Page 4"><img src="./assets/comic/chapter4.jpg" alt="Página 4"></div>
+                  <div class="page" title="Page 5"><img src="./assets/comic/chapter5.jpg" alt="Página 5"></div>
+                  <div class="page" title="Page 6"><img src="./assets/comic/chapter6.jpg" alt="Página 6"></div>
+                  <div class="page" title="Page 7"><img src="./assets/comic/chapter7.jpg" alt="Página 7"></div>
+                </div>
+                <button id="prev1" class="nav-button">Previous</button>
+                <button id="next1" class="nav-button">Next</button>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+ 
+
+
+        <div class="scroller" data-direction="left" data-speed="slow">
+            <div class="scroller__inner">
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+            </div>
+        </div>
+
+        <div class="how-to-buy">
+            <h1 class="how-to-buy-title">How to Buy?</h1>
+            <div class="content-wrapper">
+                <div class="steps">
+                    <div class="step">
+                        <img src="./assets/Phantom-Icon_Transparent_Purple.svg" alt="Step 1 Image" class="step-img">
+                        <div class="step-content">
+                            <h2 class="step-title">Set Up a Crypto Wallet</h2>
+                            <p class="step-subtitle">
+                                Install a wallet app like <a href="https://phantom.app/download" target="_blank" class="highlight">Phantom</a> or Solflare via browser extension and follow the setup instructions.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <img src="./assets/solana.png" alt="Step 2 Image" class="step-img">
+                        <div class="step-content">
+                            <h2 class="step-title">Acquire Solana (SOL)</h2>
+                            <p class="step-subtitle">
+                                Buy SOL through Phantom, transfer from another wallet, bridge from any blockchain, or use Binance or KuCoin to transfer to your wallet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <img src="./assets/favIcon.png" alt="Step 3 Image" class="step-img">
+                        <div class="step-content">
+                            <h2 class="step-title">Get Your $Mummat</h2>
+                            <p class="step-subtitle">
+                                Connect your Phantom wallet and link to <a href="https://jup.ag/" target="_blank" class="highlight">Jupiter</a> to acquire Mummat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="./assets/thumbs up.png" alt="Decorative Image" class="decorative-img">
+            </div>
+             <a href="https://jup.ag/swap/SOL-6gvWSka7SnJDn4mqV7Ydn4q7AyVNSo2aX4TNGjBg7Cct" class=""><button class="buy-button">Become a Mummat</button></a>
+        </div>
+        
+        
+        
+        <div class="scroller" data-direction="left" data-speed="slow">
+            <div class="scroller__inner">
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+              <h1>$MUMMAT</h1>
+            </div>
+        </div>
+        <section class="gallery container" id="gallery">
+            <h2 class="section__title">Gallery</h2>
+            <div class="gallery__grid">
+                <!-- Aquí se insertarán dinámicamente los elementos de la galería -->
+            </div>
+            <div class="pagination">
+                <button class="pagination__button" id="prev">Previous</button>
+                <span class="pagination__info" id="page-info"></span>
+                <button class="pagination__button" id="next">Next</button>
+            </div>
+        </section>
+        
+          
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+      <script src="./scripts/main.js"></script>
+
+     
+
+       
+        
+        <div class="footer">
+            <h2 class="footer-title">Get $MUMMAT Now</h2>
+            <div class="footer-icons">
+                <a href="https://www.coingecko.com/en/coins/mummat" class=""> <img src="./assets/Color.svg" alt=""></a>
+                <a href="https://www.dextools.io/app/es/solana/pair-explorer/FRsKKpxtoLjTzg45dzMvHu1EyGpU7wUvwUJDXEBxoWKk" class=""> <img src="./assets/dextools-seeklogo.svg" width="96px" height="96px" alt=""></a>
+                 <img src="./assets/cmc.png" width="96px" height="96px" alt="">
+                <a href="https://dexscreener.com/solana/frskkpxtoljtzg45dzmvhu1eygpu7wuvwujdxebxowkk" class=""> <img src="./assets/dex-screener-seeklogo.png" alt=""></a>
+            </div>
+           
+            
+            <div class="footer-bar">
+              <div class="footer-copyright">
+                © Copyright 2024 $Mummat inspired by Matt Furie
+              </div>
+             
+              
+            </div>
+          </div>
+          
+          
+    </main>
+    <script>
+        function copyAddress() {
+          const addressText = document.querySelector('.banner-information__address-text').innerText;
+          const address = addressText.split('CA:')[1].trim();
+        
+          navigator.clipboard.writeText(address).then(() => {
+            const alertBox = document.getElementById('copy-alert');
+            alertBox.classList.add('show');
+            
+            setTimeout(() => {
+              alertBox.classList.remove('show');
+            }, 2000);
+          }).catch(err => {
+            console.log('Something went wrong', err);
+          });
+        }
+
+        </script>
+        
+       
+        <script src="./scripts/main.js"></script>
+           
+
+</body>
+
+</html>
